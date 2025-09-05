@@ -1,0 +1,8 @@
+# Alias for git log
+alias glog="git log --oneline --graph --color --all --decorate"
+# Create as alias for nuget
+alias nuget="mono /usr/local/bin/nuget.exe"
+# Alias for lazygit
+alias lg="lazygit"
+# Alias for tmux
+alias tm="tmux"

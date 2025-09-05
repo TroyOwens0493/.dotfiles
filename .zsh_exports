@@ -1,0 +1,14 @@
+export PATH="/usr/local/mysql/bin:$PATH"
+export PATH="/opt/homebrew:$PATH"
+# Python
+export PATH="/Users/troyowens/Library/Python/3.12/bin:$PATH"
+export PATH="/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages:$PATH"
+export PATH="/Library/Frameworks/Python.framework/Versions/3.12/bin/python3:$PATH"
+# SSH github auth
+export GPG_TTY=$(tty)
+# Export swift
+export PATH="/Users/troyowens/lsps/sourcekit-lsp/.build/debug:$PATH"
+# Add sourcekit-LSP to the path
+export PATH="/Users/troyowens/.config/nvim/manual-lsp/sourcekit-lsp/.build/debug:$PATH"
+# Add mason LSPs to PATH
+export PATH="$HOME/.local/share/nvim/mason/bin:$PATH"
